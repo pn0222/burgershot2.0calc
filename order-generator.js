@@ -10,14 +10,24 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Combination Items:": {
+	"Combos": {
 		header: true,
 	},
+	"Murdershake": {
+		price: 278,
+		emoji: '🤑',
+		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
+	},
+	"Murder Meal": {
+		max: 5,
+		fileRenameException: true,
+		price: 250,
+		noDiscount: true,
+		items: ["Murder Meal"],},
 	"Rimjob Combo": {
 		price: 270,
 		items: ["Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
 	},
-	// Variable combos:
 	"Running Man": {
 		price: 245,
 		emoji: '🏃',
@@ -38,113 +48,15 @@ const Menu = {
 		emoji: '🦷',
 		items: ["Fries", "Fries", "Water", "Water"],
 	},
-	"Glory to the burger": {
-		price: 350,
-		emoji: '👑',
-		items: ["Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Meat Free"],
-	},
-	"Soyboy": {
-		price: 210,
-		emoji: '😭',
-		items: ["Meat Free", "Fries", "Water", "Water",],
-	},
-	// Monday
-	"Royal Flush": {
-		price: 226,
-		emoji: '🚽',
-		items: ["Fries", "Cream Pie", "Rimjob", "Water", "Milkshake"],
-	},
 	"Murdershake": {
 		price: 278,
 		emoji: '🤑',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
 	},
-	//"The Miller Special": {
-	//	price: 516,
-	//	emoji: '👮',
-	//	items: ["Heartstopper", "Heartstopper", "Milkshake", "Milkshake", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
-	//},
-	//"La comida blanca": {
-	//	price: 1435,
-	//	emoji: '👩‍🦳',
-	//	items: ["Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Milkshake", "Milkshake", "Milkshake", "Milkshake", "Milkshake"],
-	//},
-	//"High Roller": {
-	//	price: 685,
-	//	emoji: '🤑',
-	//	items: ["Money Shot", "Money Shot", "Soda"],
-	//},
-	// Tuesday
-	"Cream Getaway": {
-		price: 191,
-		emoji: '🏁',
-		items: ["Fries", "Fries", "Cream Pie", "Milkshake"],
-	},
-	"Burger Booster": {
-		price: 105,
-		emoji: '⛽',
-		items: ["Torpedo", "Torpedo", "Rimjob", "Soda"],
-	},
-	// Wednesday
-	"Salad Dodger": {
-		price: 230,
-		emoji: '🥗',
-		items: ["Soda", "Soda", "Rimjob", "Rimjob"],
-	},
-	"Vegan Slaughter": {
-		price: 201,
-		emoji: '🥬',
-		items: ["Meat Free", "Fries", "Milkshake", "Cream Pie"],
-	},
-	// Thursday
-	"Ice Screamer": {
-		price: 136,
-		emoji: '🍦',
-		items: ["Cream Pie", "Fries", "Milkshake"],
-	},
-	"Brain Bleeder": {
-		price: 230,
-		emoji: '🥶',
-		items: ["Bleeder", "Bleeder", "Rimjob", "Rimjob"],
-	},
-	// Friday
-	"A Taste of Greece": {
-		price: 160,
-		emoji: '🌺',
-		items: ["Torpedo", "Water", "Water"],
-	},
-	"Jugular Jungle": {
-		price: 261,
-		emoji: '🌴',
-		items: ["Fries", "Fries", "Fries", "Milkshake", "Milkshake"],
-	},
-	// Saturday
-	"A Salt & Battery": {
-		price: 210,
-		emoji: '🧂',
-		items: ["Fries", "Fries", "Fries", "Soda"],
-	},
-	//"Lime Served": {
-	//	price: 184,
-	//	emoji: '🕑',
-	//	items: ["Money Shot", "Cream Pie", "Cream Pie", "Milkshake"],
-	//},
-	"Baz Special": {
-		price: 265,
-		max: 2,
-		emoji: '🙂',
-		items: ["Fries", "Fries", "Fries", "Fries", "Soda"],
-	},
 	// Burger Meals:
 	"Burger Meals:": {
 		header: true,
-	},
-	"Murder Meal": {
-		max: 4,
-		fileRenameException: true,
-		price: 250,
-		noDiscount: true,
-		items: ["Murder Meal"],
+	
 	},
 	"Heartstopper Meal": {
 		price: 175,
@@ -157,14 +69,6 @@ const Menu = {
 	"Torpedo Meal": {
 		price: 170,
 		items: ["Torpedo", "Fries", "Soda"],
-	},
-	"Bleeder Meal": {
-		price: 170,
-		items: ["Bleeder", "Fries", "Soda"],
-	},
-	"Meat Free Meal": {
-		price: 160,
-		items: ["Meat Free", "Fries", "Soda"],
 	},
 	// Individual Items:
 	"Individual Items:": {
@@ -215,7 +119,7 @@ const Menu = {
 		items: ["Cream Pie"],
 	},
 	"Toy": {
-		price: 202,
+		price: 101,
 		max: 10,
 		noDiscount: true,
 		lastItem: false,
@@ -234,42 +138,35 @@ const Menu = {
 	   noDiscount: false,
 	   lastItem: false,
 	   items: ["Salad"],
-   },
+  	},
 	"Orange Juice": {
 	   price: 45,
 	   max: 5,
 	   noDiscount: false,
 	   lastItem: false,
 	   items: ["Orange Juice"],
-   },
-   "Lemonade": {
+   	},
+   	"Lemonade": {
 	  price: 45,
 	  max: 5,
 	  noDiscount: false,
 	  lastItem: false,
 	  items: ["Orange Juice"],
-  },
-  "Lucky Rings": {
-	 price: 55,
-	 max: 5,
-	 noDiscount: false,
-	 lastItem: false,
-	 items: ["Lucky Rings"],
- },
- "BurgerBits": {
-	price: 75,
-	max: 5,
-	noDiscount: false,
-	lastItem: false,
-	items: ["BurgerBits"],
-}//,
-//"10 Pack BurgerBits": {
- //  price: 1375,
- //  max: 1,
- //  noDiscount: true,
-  // lastItem: true,
-   //items: ["10 Pack BurgerBits"],
-//}
+  	},
+  	"Lucky Rings": {
+	  price: 55,
+	  max: 5,
+	  noDiscount: false,
+	  lastItem: false,
+	  items: ["Lucky Rings"],
+	},
+  	"Mozzarella Sticks": {
+	  price: 55,
+	  max: 5,
+	  noDiscount: false,
+	  lastItem: false,
+	  items: ["Mozz sticks"],
+ 	
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
