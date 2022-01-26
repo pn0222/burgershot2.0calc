@@ -482,9 +482,7 @@ function updateDarkmode() {
 }
 
 function isSelected(comboName) {
-	let returnVal;
-	returnVal = true;
-	return returnVal;
+	return true;
 }
 
 let selectingCombos = false;
