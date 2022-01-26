@@ -24,6 +24,7 @@ const Menu = {
 		price: 250,
 		noDiscount: true,
 		items: ["Murder Meal"],},
+	},
 	"Rimjob Combo": {
 		price: 270,
 		items: ["Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
