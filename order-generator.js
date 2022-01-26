@@ -167,7 +167,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "BurgerBits", "10 Pack BurgerBits"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozzarella Sticks"
 ];
 
 const buttons = {
