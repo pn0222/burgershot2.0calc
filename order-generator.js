@@ -483,12 +483,7 @@ function updateDarkmode() {
 
 function isSelected(comboName) {
 	let returnVal;
-	let value = localStorage.getItem(`${comboName}-SELECTED`);
-	if (!value || value === 'undefined' || value === 'false') {
-		returnVal = false;
-	} else {
-		returnVal = true;
-	}
+	returnVal = true;
 	return returnVal;
 }
 
