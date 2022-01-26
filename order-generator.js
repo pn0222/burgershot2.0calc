@@ -48,17 +48,6 @@ const Menu = {
 		emoji: '😭',
 		items: ["Meat Free", "Fries", "Water", "Water",],
 	},
-	// Sunday
-	"Buck Fever": {
-		price: 163,
-		emoji: '🦌',
-		items: ["Bleeder", "Milkshake", "Rimjob"],
-	},
-	"The Big Catch": {
-		price: 176,
-		emoji: '🎣',
-		items: ["Cream Pie", "Cream Pie", "Fries", "Fries"],
-	},
 	// Monday
 	"Royal Flush": {
 		price: 226,
