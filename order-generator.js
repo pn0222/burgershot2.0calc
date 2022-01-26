@@ -70,9 +70,9 @@ const Menu = {
 	//	items: ["Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Heartstopper", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Fries", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Milkshake", "Milkshake", "Milkshake", "Milkshake", "Milkshake"],
 	//},
 	//"High Roller": {
-		price: 685,
-		emoji: '🤑',
-		items: ["Money Shot", "Money Shot", "Soda"],
+	//	price: 685,
+	//	emoji: '🤑',
+	//	items: ["Money Shot", "Money Shot", "Soda"],
 	//},
 	// Tuesday
 	"Cream Getaway": {
