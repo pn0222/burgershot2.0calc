@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Combos": {
+	"Combination Items": {
 		header: true,
 	},
 	"Murdershake": {
