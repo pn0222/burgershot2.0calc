@@ -74,7 +74,7 @@ const Menu = {
 		items: ["Torpedo", "Fries", "Soda"],
 	},
 	// Individual Items:
-	"Individual Items:": {
+	"Burgers:": {
 		header: true,
 	},
 	"Heartstopper": {
@@ -93,6 +93,9 @@ const Menu = {
 		price: 70,
 		items: ["Bleeder"],
 	},
+	"Drinks:": {
+		header: true,
+	},
 	"Soda": {
 		price: 45,
 		items: ["Soda"]
@@ -101,10 +104,60 @@ const Menu = {
 		price: 48,
 		items: ["Milkshake"],
 	},
+	"Orange Juice": {
+	   	price: 45,
+	   	max: 5,
+	   	noDiscount: false,
+	   	lastItem: false,
+	   	items: ["Orange Juice"],
+   	},
+   	"Lemonade": {
+	  	price: 45,
+	 	max: 5,
+	  	noDiscount: false,
+	  	lastItem: false,
+	  	items: ["Orange Juice"],
+  	},
+	"Sides:": {
+		header: true,
+
+	},
 	"Fries": {
 		price: 55,
 		items: ["Fries"],
 	},
+  	"Lucky Rings": {
+	  	price: 55,
+	  	max: 5,
+	  	noDiscount: false,
+	  	lastItem: false,
+	  	items: ["Lucky Rings"],
+	},
+  	"Mozz Sticks": {
+	  	price: 55,
+	  	max: 5,
+	  	noDiscount: false,
+	  	lastItem: false,
+	  	items: ["Mozz sticks"],
+ 	
+	},
+	 "Bloody Fingers": {
+		price: 40,
+		max: 5,
+		noDiscount: false,
+		lastItem: false,
+		items: ["Bloody Fingers"],
+	},
+	"Salad": {
+	   	price: 55,
+	   	max: 5,
+	   	noDiscount: false,
+	   	lastItem: false,
+	  	items: ["Salad"],
+	},
+	"Deserts and Toys:": {
+		header: true,
+  	},
 	"Rimjob": {
 		price: 45,
 		items: ["Rimjob"],
@@ -120,48 +173,6 @@ const Menu = {
 		lastItem: false,
 		items: ["Toy"],
 	},
-	 "Bloody Fingers": {
-		price: 40,
-		max: 5,
-		noDiscount: false,
-		lastItem: false,
-		items: ["Bloody Fingers"],
-	},
-	"Salad": {
-	   	price: 55,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
-	  	items: ["Salad"],
-  	},
-	"Orange Juice": {
-	   	price: 45,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
-	   	items: ["Orange Juice"],
-   	},
-   	"Lemonade": {
-	  	price: 45,
-	 	max: 5,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Orange Juice"],
-  	},
-  	"Lucky Rings": {
-	  	price: 55,
-	  	max: 5,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Lucky Rings"],
-	},
-  	"Mozz Sticks": {
-	  	price: 55,
-	  	max: 5,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Mozz sticks"],
- 	},
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
