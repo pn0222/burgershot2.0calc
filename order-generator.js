@@ -18,48 +18,55 @@ const Menu = {
 		emoji: '🤑',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
 	},
+	"Murder Meal": {
+		max: 5,
+		fileRenameException: true,
+		price: 250,
+		emoji: '🍔',
+		noDiscount: true,
+		items: ["Murder Meal"],
+	},
 	"Running Man": {
 		price: 245,
 		emoji: '🏃',
 		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
+	
+	},
+	"MilkShake and Fries": {
+		price: 200,
+		emoji: '🍟',
+		items: ["Fries", "Fries", "Milkshake", "Milkshake"],
+	},
+	"Lucky Fisherman": {
+		price: 200,
+		emoji: '⛵',
+		items: ["Lucky Rings", "Lucky Rings", "Soda", "Soda"],
+	},
+	"Salty Seaman": {
+		price: 200,
+		emoji: '🧂',
+		items: ["Fries", "Fries", "Soda", "Soda"],
+	},
+	"Sweet Tooth": {
+		price: 162,
+		emoji: '🦷',
+		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
 	},
 	"Sugar Rush": {
 		price: 123,
 		emoji: '🍬',
 		items: ["Soda", "Cream Pie", "Rimjob"],
 	},
-	"Sweet Tooth": {
-		price: 162,
-		emoji: '🧂',
-		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
-	},
-	"Salty Seaman": {
-		price: 200,
-		emoji: '🦷',
-		items: ["Fries", "Fries", "Water", "Water"],
-	},
-	"Murdershake": {
-		price: 278,
-		emoji: '🤑',
-		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
-	},
 	// Burger Meals:
 	"Burger Meals:": {
 		header: true,
-	},
-	"Murder Meal": {
-		max: 4,
-		fileRenameException: true,
-		price: 250,
-		noDiscount: true,
-		items: ["Murder Meal"],
 	},
 	"Heartstopper Meal": {
 		price: 175,
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
 	"Money Shot Meal": {
-		price:375,
+		price: 375,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	"Torpedo Meal": {
@@ -85,14 +92,6 @@ const Menu = {
 	"Bleeder": {
 		price: 70,
 		items: ["Bleeder"],
-	},
-	"Meat Free": {
-		price: 65,
-		items: ["Meat Free"],
-	},
-	"Water": {
-		price: 45,
-		items: ["Water"],
 	},
 	"Soda": {
 		price: 45,
