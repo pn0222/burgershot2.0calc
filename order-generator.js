@@ -18,13 +18,6 @@ const Menu = {
 		emoji: '🤑',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
 	},
-	"Murder Meal": {
-		max: 5,
-		fileRenameException: true,
-		price: 250,
-		noDiscount: true,
-		items: ["Murder Meal"],},
-	},
 	"Running Man": {
 		price: 245,
 		emoji: '🏃',
@@ -53,7 +46,13 @@ const Menu = {
 	// Burger Meals:
 	"Burger Meals:": {
 		header: true,
-	
+	},
+	"Murder Meal": {
+		max: 4,
+		fileRenameException: true,
+		price: 250,
+		noDiscount: true,
+		items: ["Murder Meal"],
 	},
 	"Heartstopper Meal": {
 		price: 175,
@@ -157,7 +156,7 @@ const Menu = {
 	  lastItem: false,
 	  items: ["Lucky Rings"],
 	},
-  	"Mozzarella Sticks": {
+  	"Mozz Sticks": {
 	  price: 55,
 	  max: 5,
 	  noDiscount: false,
@@ -167,7 +166,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozzarella Sticks"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz Sticks"
 ];
 
 const buttons = {
