@@ -69,9 +69,9 @@ const Menu = {
 		price: 375,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
-	"Torpedo Meal": {
-		price: 170,
-		items: ["Torpedo", "Fries", "Soda"],
+	"Bleeder Meal": {
+		price: 200,
+		items: ["Bleeder", "Fries", "Soda"],
 	},
 	// Individual Items:
 	"Burgers:": {
@@ -85,13 +85,13 @@ const Menu = {
 		price: 300,
 		items: ["Money Shot"],
 	},
-	"Torpedo": {
+	"Bleeder": {
+		price: 100,
+		items: ["Bleeder"],
+	},
+	"Clucker": {
 		price: 70,
 		items: ["Torpedo"],
-	},
-	"Bleeder": {
-		price: 70,
-		items: ["Bleeder"],
 	},
 	"Drinks:": {
 		header: true,
@@ -203,7 +203,7 @@ const discounts = {
 		percent: .50,
 		desc: '50% Discount (PD, EMS, BS Employees...)',
 	},
-	"half_off": {
+	"five_percent": {
 		percent: .05,
 		desc: '5% Discount (<font color="red">LIMITED TIME</font>)',
 	},
