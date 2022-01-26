@@ -129,40 +129,40 @@ const Menu = {
 		items: ["Bloody Fingers"],
 	},
 	"Salad": {
-	   price: 55,
-	   max: 5,
-	   noDiscount: false,
-	   lastItem: false,
-	   items: ["Salad"],
+	   	price: 55,
+	   	max: 5,
+	   	noDiscount: false,
+	   	lastItem: false,
+	  	items: ["Salad"],
   	},
 	"Orange Juice": {
-	   price: 45,
-	   max: 5,
-	   noDiscount: false,
-	   lastItem: false,
-	   items: ["Orange Juice"],
+	   	price: 45,
+	   	max: 5,
+	   	noDiscount: false,
+	   	lastItem: false,
+	   	items: ["Orange Juice"],
    	},
    	"Lemonade": {
-	  price: 45,
-	  max: 5,
-	  noDiscount: false,
-	  lastItem: false,
-	  items: ["Orange Juice"],
+	  	price: 45,
+	 	max: 5,
+	  	noDiscount: false,
+	  	lastItem: false,
+	  	items: ["Orange Juice"],
   	},
   	"Lucky Rings": {
-	  price: 55,
-	  max: 5,
-	  noDiscount: false,
-	  lastItem: false,
-	  items: ["Lucky Rings"],
+	  	price: 55,
+	  	max: 5,
+	  	noDiscount: false,
+	  	lastItem: false,
+	  	items: ["Lucky Rings"],
 	},
   	"Mozz Sticks": {
-	  price: 55,
-	  max: 5,
-	  noDiscount: false,
-	  lastItem: false,
-	  items: ["Mozz sticks"],
- 	}
+	  	price: 55,
+	  	max: 5,
+	  	noDiscount: false,
+	  	lastItem: false,
+	  	items: ["Mozz sticks"],
+ 	},
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
@@ -188,6 +188,7 @@ const buttons = {
 };
 
 const discounts = {
+	
 	"half_off": {
 		percent: .50,
 		desc: '50% Discount (PD, EMS, BS Employees...)',
