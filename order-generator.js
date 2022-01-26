@@ -25,10 +25,6 @@ const Menu = {
 		noDiscount: true,
 		items: ["Murder Meal"],},
 	},
-	"Rimjob Combo": {
-		price: 270,
-		items: ["Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
-	},
 	"Running Man": {
 		price: 245,
 		emoji: '🏃',
@@ -167,7 +163,7 @@ const Menu = {
 	  noDiscount: false,
 	  lastItem: false,
 	  items: ["Mozz sticks"],
- 	
+ 	}
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
