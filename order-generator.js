@@ -17,6 +17,7 @@ const Menu = {
 		price: 278,
 		emoji: '🤑',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
+		copypasta: '~o~ ~h~🍔MurderShake Meal🍩~n~~b~1 Mystery Burger, 2 Sides, 1 Milkshake, 1 Rimjob ~w~|~g~ $278',
 	},
 	"Murder Meal": {
 		max: 5,
@@ -25,37 +26,49 @@ const Menu = {
 		emoji: '🍔',
 		noDiscount: true,
 		items: ["Murder Meal"],
+		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
 	},
 	"Running Man": {
 		price: 245,
 		emoji: '🏃',
 		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
-	
+		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 Soda ~w~|~g~ $245',
 	},
 	"MilkShake and Fries": {
 		price: 200,
 		emoji: '🍟',
 		items: ["Fries", "Fries", "Milkshake", "Milkshake"],
+		copypasta:  '~p~~h~🍟🍨MilkShake and Fries Combo🍨🍟~n~~b~2 Fries & 2 Milkshakes ~w~|~g~ $200',
 	},
 	"Lucky Fisherman": {
 		price: 200,
 		emoji: '⛵',
 		items: ["Lucky Rings", "Lucky Rings", "Soda", "Soda"],
+		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Lucky Rings & 2 Drinks ~w~|~g~ $200 LIMITED TIME',
 	},
 	"Salty Seaman": {
 		price: 200,
 		emoji: '🧂',
 		items: ["Fries", "Fries", "Soda", "Soda"],
+		copypasta:  '~p~~h~⛵🧂Salty Seaman Combo🧂⛵~n~~b~2 Fries & 2 Drinks ~w~|~g~ $200',
+	},
+	"Stretchy De-stress": {
+		price: 200,
+		emoji: '🧀',
+		items: ["Mozz sticks","Mozz sticks","Mozz sticks","Mozz sticks"],
+		copypasta:  '~y~ ~h~ 🧀Stretchy De-stress🧠 ~n~~b~ 4 Mozzarella Sticks ~w~|~g~ $200 ~r~LIMITED COMBO',
 	},
 	"Sweet Tooth": {
 		price: 162,
 		emoji: '🦷',
 		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
+		copypasta:  '~g~~h~🦷🍬Sweet Tooth Combo🍬🦷~n~~b~2 Milkshakes & 2 Cream Pies ~w~|~g~ $162',
 	},
 	"Sugar Rush": {
 		price: 123,
 		emoji: '🍬',
 		items: ["Soda", "Cream Pie", "Rimjob"],
+		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
 	},
 	// Burger Meals:
 	"Burger Meals:": {
