@@ -394,7 +394,7 @@ function updateSelected() {
 function toggleCombos() {
 	selectingCombos = !selectingCombos;
 	if (selectingCombos) {
-		let buffer = `<table border="0"><tr><td colspan="${Settings.COMBO_TABLE_WIDTH}"><center><i>Combo Scene CopyPastas:</i></center></td></tr><tr>`;
+		let buffer = `<table border="0"><tr><td colspan="${Settings.COMBO_TABLE_WIDTH}"><center><i> Combo Scene CopyPastas </i></center></td></tr><tr>`;
 		let count = 0;
 		Object.keys(Menu).forEach(item => {
 			if (Menu[item].header || !Menu[item].emoji) return;
