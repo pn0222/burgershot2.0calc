@@ -10,7 +10,7 @@ const Settings = {
 
 const Menu = {
 	// Combo Items:
-	"Combination Items": {
+	"Combos": {
 		header: true,
 	},
 	"Murdershake": {
@@ -74,7 +74,7 @@ const Menu = {
 		items: ["Bleeder", "Fries", "Soda"],
 	},
 	// Individual Items:
-	"Burgers:": {
+	"Burgers and Mains:": {
 		header: true,
 	},
 	"Heartstopper": {
@@ -88,10 +88,6 @@ const Menu = {
 	"Bleeder": {
 		price: 100,
 		items: ["Bleeder"],
-	},
-	"Clucker": {
-		price: 70,
-		items: ["Torpedo"],
 	},
 	"Drinks:": {
 		header: true,
