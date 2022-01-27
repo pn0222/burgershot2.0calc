@@ -183,7 +183,7 @@ const buttons = {
 		html: '<div class="btn" onclick="newOrder();" title="Clear current order"><i class="fa fa-refresh" aria-hidden="true"></i> New Order</div>',
 	},
 	"set_combos": {
-		html: '<div class="btn" onclick="toggleCombos()" title="Select current active combos"><i class="fa fa-cog" aria-hidden="true"></i> Combo Settings</div>',
+		html: '<div class="btn" onclick="toggleCombos()" title="Select current active combos"><i class="fa fa-cog" aria-hidden="true"></i> Combo Signs</div>',
 	},
 	"save": {
 		html: '<div class="btn" onclick="updateSelected()" title="Save selected combos"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save Combination Items</div>',
@@ -394,7 +394,7 @@ function updateSelected() {
 function toggleCombos() {
 	selectingCombos = !selectingCombos;
 	if (selectingCombos) {
-		let buffer = `<table border="0"><tr><td colspan="${Settings.COMBO_TABLE_WIDTH}"><center><i>Select active combination items:</i></center></td></tr><tr>`;
+		let buffer = `<table border="0"><tr><td colspan="${Settings.COMBO_TABLE_WIDTH}"><center><i>Combo Scene CopyPastas:</i></center></td></tr><tr>`;
 		let count = 0;
 		Object.keys(Menu).forEach(item => {
 			if (Menu[item].header || !Menu[item].emoji) return;
