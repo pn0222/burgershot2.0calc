@@ -113,6 +113,10 @@ const Menu = {
 		price: 48,
 		items: ["Milkshake"],
 	},
+	"Copium": {
+		price: 48,
+		items: ["Copium"],
+	},
 	"Orange Juice": {
 	   	price: 45,
 	   	max: 5,
@@ -185,7 +189,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz sticks"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz sticks", "Copium",
 ];
 
 const buttons = {
