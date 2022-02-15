@@ -72,7 +72,7 @@ const Menu = {
 	},
 	"Sugar Rush": {
 		price: 123,
-		emoji: '🍬',
+		emoji: '💰',
 		items: ["Soda", "Cream Pie", "Rimjob"],
 		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
 	},
