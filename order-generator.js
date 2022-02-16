@@ -29,7 +29,7 @@ const Menu = {
 		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
 	},
 	"JackPot Meal": {
-		price: 400,
+		price: 700,
 		emoji: '💰',
 		items: ["Money Shot", "Lucky Rings", "Copium"],
 		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $400',
@@ -101,7 +101,7 @@ const Menu = {
 		items: ["Heartstopper"],
 	},
 	"Money Shot": {
-		price: 300,
+		price: 500,
 		items: ["Money Shot"],
 	},
 	"Bleeder": {
@@ -120,7 +120,7 @@ const Menu = {
 		items: ["Milkshake"],
 	},
 	"Copium": {
-		price: 65,
+		price: 100,
 		items: ["Copium"],
 	},
 	"Orange Juice": {
@@ -146,7 +146,7 @@ const Menu = {
 		items: ["Fries"],
 	},
   	"Lucky Rings": {
-	  	price: 65,
+	  	price: 100,
 	  	max: 5,
 	  	noDiscount: false,
 	  	lastItem: false,
