@@ -30,7 +30,7 @@ const Menu = {
 	},
 	" JackPot Meal": {
 		price: 700,
-		emoji: '',
+		emoji: '$',
 		items: ["Money Shot", "Lucky Rings", "Copium"],
 		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $400',
 	},
