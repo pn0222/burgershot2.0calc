@@ -85,7 +85,7 @@ const Menu = {
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
 	"Money Shot Meal": {
-		price: 375,
+		price: 575,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	"Bleeder Meal": {
