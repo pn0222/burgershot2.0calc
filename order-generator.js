@@ -34,12 +34,6 @@ const Menu = {
 		items: ["Money Shot", "Lucky Rings", "Copium"],
 		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $400',
 	},
-	"old JackPot Meal": {
-		price: 400,
-		emoji: '💰',
-		items: ["Money Shot", "Lucky Rings", "Copium"],
-		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $400',
-	},
 	"Running Man": {
 		price: 245,
 		emoji: '🏃',
