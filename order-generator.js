@@ -28,11 +28,11 @@ const Menu = {
 		items: ["Murder Meal"],
 		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
 	},
-	"JackPot Meal": {
-		price: 700,
-		emoji: '💰',
-		items: ["Money Shot", "Lucky Rings", "Copium"],
-		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $400',
+	"Murdershake": {
+		price: 278,
+		emoji: '🍩',
+		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
+		copypasta: '~o~ ~h~🍔MurderShake Meal🍩~n~~b~1 Mystery Burger, 2 Sides, 1 Milkshake, 1 Rimjob ~w~|~g~ $278',
 	},
 	"Running Man": {
 		price: 245,
