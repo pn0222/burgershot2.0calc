@@ -76,7 +76,7 @@ const Menu = {
 		items: ["Soda", "Cream Pie", "Rimjob"],
 		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
 	},
-	"Sugar Rush": {
+	"Morning Glory": {
 		price: 150,
 		emoji: '☀️',
 		items: ["Oatmeal", "Bacon", "Milkshake"],
