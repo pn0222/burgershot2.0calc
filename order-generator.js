@@ -28,7 +28,7 @@ const Menu = {
 		items: ["Murder Meal"],
 		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
 	},
-	" JackPot Meal": {
+	"JackPot Meal": {
 		price: 700,
 		emoji: '🍀',
 		items: ["Money Shot", "Lucky Rings", "Copium"],
@@ -76,6 +76,12 @@ const Menu = {
 		items: ["Soda", "Cream Pie", "Rimjob"],
 		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
 	},
+	"Sugar Rush": {
+		price: 150,
+		emoji: '☀️',
+		items: ["Oatmeal", "Bacon", "Milkshake"],
+		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
+	},
 	// Burger Meals:
 	"Burger Meals:": {
 		header: true,
@@ -107,6 +113,10 @@ const Menu = {
 	"Bleeder": {
 		price: 100,
 		items: ["Bleeder"],
+	},
+	"Oatmeal": {
+		price: 50,
+		items: ["Oatmeal"],
 	},
 	"Drinks:": {
 		header: true,
@@ -160,6 +170,10 @@ const Menu = {
 	  	items: ["Mozz sticks"],
  	
 	},
+	"Bacon": {
+		price: 50,
+		items: ["Bacon"],
+	},
 	 "Bloody Fingers": {
 		price: 40,
 		max: 5,
@@ -195,7 +209,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz sticks", "Copium",
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz sticks", "Copium", "Bacon", "Oatmeal"
 ];
 
 const buttons = {
