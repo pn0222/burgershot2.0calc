@@ -20,7 +20,6 @@ const Menu = {
 		copypasta: '~o~ ~h~🍔MurderShake Meal🍩~n~~b~1 Mystery Burger, 2 Sides, 1 Milkshake, 1 Rimjob ~w~|~g~ $278',
 	},
 	"Murder Meal": {
-		max: 5,
 		fileRenameException: true,
 		price: 250,
 		emoji: '🍔',
@@ -157,14 +156,12 @@ const Menu = {
 	},
   	"Lucky Rings": {
 	  	price: 65,
-	  	max: 5,
 	  	noDiscount: false,
 	  	lastItem: false,
 	  	items: ["Lucky Rings"],
 	},
   	"Mozz Sticks": {
 	  	price: 55,
-	  	max: 5,
 	  	noDiscount: false,
 	  	lastItem: false,
 	  	items: ["Mozz sticks"],
