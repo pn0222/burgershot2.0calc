@@ -155,7 +155,7 @@ const Menu = {
 		items: ["Fries"],
 	},
   	"Lucky Rings": {
-	  	price: 65,
+	  	price: 100,
 	  	noDiscount: false,
 	  	lastItem: false,
 	  	items: ["Lucky Rings"],
