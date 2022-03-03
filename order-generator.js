@@ -14,7 +14,7 @@ const Menu = {
 		header: true,
 	},
 	"Murdershake": {
-		price: 278,
+		price: 300,
 		emoji: '🍩',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
 		copypasta: '~o~ ~h~🍔MurderShake Meal🍩~n~~b~1 Mystery Burger, 2 Sides, 1 Milkshake, 1 Rimjob ~w~|~g~ $278',
