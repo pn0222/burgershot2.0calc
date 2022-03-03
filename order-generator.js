@@ -34,7 +34,7 @@ const Menu = {
 		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $400',
 	},
 	"Running Man": {
-		price: 245,
+		price: 250,
 		emoji: '🏃',
 		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
 		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 Soda ~w~|~g~ $245',
