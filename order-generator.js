@@ -196,13 +196,6 @@ const Menu = {
 		price: 33,
 		items: ["Cream Pie"],
 	},
-	"Toy": {
-		price: 101,
-		max: 10,
-		noDiscount: true,
-		lastItem: false,
-		items: ["Toy"],
-	},
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
