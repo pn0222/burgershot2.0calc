@@ -27,7 +27,7 @@ const Menu = {
 		items: ["Murder Meal"],
 		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
 	},
-	"JackPot Meal": {
+	"Jackpot Meal": {
 		price: 700,
 		items: ["Money Shot", "Lucky Rings", "Copium"],
 		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $400',
