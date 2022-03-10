@@ -462,6 +462,7 @@ function getIcon(item) {
 		icon = Menu[item].emoji;
 	} else {
 		let fileName = `${item.toLowerCase().replace(' ', '_')}.png`;
+		console.log(fileName)
 		icon = `<img src="images/${fileName}" width="20" height="20">`;
 	}
 	return icon;
