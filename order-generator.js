@@ -455,6 +455,7 @@ function toggleCombos() {
 function getIcon(item) {
 	if (!Menu[item].fileRenameException) {
 		item = item.replace('Meal', '').replace('Combo', '').trim();
+		console.log("item = " + item);
 	}
 	if (!Menu[item]) return;
 	let icon;
@@ -462,6 +463,7 @@ function getIcon(item) {
 		icon = Menu[item].emoji;
 	} else {
 		let fileName = `${item.toLowerCase().replace(' ', '_')}.png`;
+		console.log("fileName = " + fileName);
 		icon = `<img src="images/${fileName}" width="20" height="20">`;
 	}
 	return icon;
