@@ -185,7 +185,7 @@ const Menu = {
 	   	lastItem: false,
 	  	items: ["Salad"],
 	},
-	"Deserts and Toys:": {
+	"Deserts(toys are no longer being sold indivdually):": {
 		header: true,
   	},
 	"Rimjob": {
@@ -196,10 +196,14 @@ const Menu = {
 		price: 33,
 		items: ["Cream Pie"],
 	},
+	"Ice Cream": {
+		price: 33,
+		items: ["Ice Cream"],
+	},
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz sticks", "Copium", "Bacon", "Oatmeal"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz sticks", "Copium", "Bacon", "Oatmeal", "Ice Cream"
 ];
 
 const buttons = {
