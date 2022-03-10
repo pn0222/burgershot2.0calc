@@ -13,8 +13,10 @@ const Menu = {
 	"Combos": {
 		header: true,
 	},
-	"Murdershake": {
+	"Murdershake Combo": {
+		fileRenameException: true,
 		price: 300,
+		noDiscount: true,
 		emoji: '🍩',
 		items: ["Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
 		copypasta: '~o~ ~h~🍔MurderShake Meal🍩~n~~b~1 Mystery Burger, 2 Sides, 1 Milkshake, 1 Rimjob ~w~|~g~ $278',
@@ -27,7 +29,8 @@ const Menu = {
 		items: ["Murder Meal"],
 		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
 	},
-	"Jackpot": {
+	"Jackpot Meal": {
+		fileRenameException: true,
 		price: 700,
 		emoji: '💰',
 		items: ["Money Shot", "Lucky Rings", "Copium"],
